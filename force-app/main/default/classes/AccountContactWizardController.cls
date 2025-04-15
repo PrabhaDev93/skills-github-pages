@@ -14,6 +14,7 @@
 public with sharing class AccountContactWizardController {
   @AuraEnabled
   public static void createContact(Contact ContactRecord) {
+    //Insert the contacts
     insert ContactRecord;
   }
 }
